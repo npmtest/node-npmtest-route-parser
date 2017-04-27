@@ -1,6 +1,6 @@
 # npmtest-route-parser
 
-#### test coverage for  [route-parser (v0.0.5)](http://github.com/rcs/route-parser)  [![npm package](https://img.shields.io/npm/v/npmtest-route-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-route-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-route-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-route-parser)
+#### basic test coverage for  [route-parser (v0.0.5)](http://github.com/rcs/route-parser)  [![npm package](https://img.shields.io/npm/v/npmtest-route-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-route-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-route-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-route-parser)
 
 #### A isomorphic, bullet-proof, ninja-ready route parsing, matching, and reversing library for Javascript in Node and the browser.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-route-parser/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-route-parser/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-route-parser/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-route-parser/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-route-parser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-route-parser/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-route-parser/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-route-parser/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-route-parser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-route-parser/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-route-parser/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-route-parser/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
         "test-client": "karma start --singleRun",
         "test-node": "mocha"
     },
-    "version": "0.0.5"
+    "version": "0.0.5",
+    "bin": {}
 }
 ```
 
